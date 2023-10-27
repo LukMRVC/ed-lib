@@ -19,9 +19,7 @@ pub trait Parser<T> {
         Self: Sized;
 }
 
-struct BracketNotationParser {}
-
-impl BracketNotationParser {}
+pub struct BracketNotationParser {}
 
 impl Parser<u8> for BracketNotationParser {
     type TokenType = String;

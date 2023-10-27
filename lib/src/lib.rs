@@ -1,6 +1,6 @@
-mod label;
-mod node;
-mod parsing;
+pub mod label;
+pub mod node;
+pub mod parsing;
 
 #[cfg(test)]
 mod tests {
